@@ -1,0 +1,31 @@
+//////////////////////////////////////////////////////
+//TITLE: Graphics HW1_merry-go-round
+//SUBJECT: Graphics
+//STUDENT ID: 2015-10033
+//STUDENT NAME: Da Yun Kim
+//////////////////////////////////////////////////////
+Functions
+updatate(): give angle values according to the time(animation)
+LayerA() 1st hierarchy
+	main column
+	floor
+	ceiling
+LayerB() 2nd hierarchy
+	column
+	sheep's body
+LayerC() 3rd hierarchy
+	sheep's head
+	sheep's four legs
+drawScene()
+///////////////////////////////////////////////////////
+Descriptions
+For threshold time(TH),
+	LayerB moves up and down.
+	LayerC rotates against the main column(y-axis)
+After then, LayerA spin itself(y-axis)
+	LayerB moves up and down.
+	In layerC, heads rotate against the main column.
+	Legs rotate against x-axis or z-axis.
+Each leg and head in LayerC rotates against y-axis independently
+//////////////////////////////////////////////////////
+
